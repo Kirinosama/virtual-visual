@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: 算法星球
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: 算法星球
+    template: '%s — 算法星球'
+  description: "\U0001F680 Hello World"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: 算法星球
     images:
       - url: '~/assets/images/default.png'
         width: 1200
