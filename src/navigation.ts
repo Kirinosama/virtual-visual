@@ -4,21 +4,26 @@ export const headerData = {
   links: [
     {
       text: '首页',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        }
-      ],
+      href: getPermalink('/#'),
     },
     {
       text: '课程介绍',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'C++',
+          href: getPermalink('/Course/C++'),
+        },
+        {
+          text: 'Python',
+          href: getPermalink('/Course/Python'),
         }
       ],
+    },
+    {
+      text: '题库',
+      href: 'http://www.aicodeplanet.com',
+      target: '_blank',
+      rel: 'noreferrer',
     },
     {
       text: '关于我们',
@@ -29,19 +34,19 @@ export const headerData = {
         }
       ],
     },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        }
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
+    // {
+    //   text: 'Blog',
+    //   links: [
+    //     {
+    //       text: 'Blog List',
+    //       href: getBlogPermalink(),
+    //     }
+    //   ],
+    // },
+    // {
+    //   text: 'Widgets',
+    //   href: '#',
+    // },
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
